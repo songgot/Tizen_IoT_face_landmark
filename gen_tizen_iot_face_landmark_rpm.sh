@@ -6,9 +6,9 @@
 ## @brief generate the Tizen-IoT face landmark example package
 ##
 
-git init
-git add *
-git commit -m 'Initial commit'
-#gbs build -A armv7l --include-all --clean
-gbs build -A aarch64 --include-all --clean
-rm -rf .git
+#git init
+#git add *
+#git commit -m 'Initial commit'
+gbs build -A armv7l --include-all --clean
+#gbs build -A aarch64 --include-all --clean
+#rm -rf .git
